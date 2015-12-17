@@ -7,7 +7,7 @@ _<sup>1</sup>Unit of Nutritional Epidemiology, Institute of Environmental Medici
 
 ---
 
-Data and R code to reproduce the analyses in the  "Goodness of fit for dose–response meta-analysis of binary outcomes" manuscript is available in this repository.
+Data and R code to reproduce the analyses in the paper "Goodness of fit for dose–response meta-analysis of binary outcomes" are available in this repository.
 
 Note: version 2.0.0 of the R package `dosresmeta` is required. It can be downloaded from http://github.com/alecri/dosresmeta or installed from R using the following command lines:
 
@@ -22,3 +22,5 @@ Quick description of the files contained in this repository:
 * `functions.R`: additional functions used in the examples
 
 ---
+
+Reference: A.Discacciati, A.Crippa, N.Orsini. _Goodness of fit for dose–response meta-analysis of binary outcomes_. Research Synthesis Methods. 10.1002/jrsm.1194. http://onlinelibrary.wiley.com/doi/10.1002/jrsm.1194/pdf
