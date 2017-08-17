@@ -14,11 +14,25 @@ Note: version 2.0.0 of the R package `dosresmeta` is required. It can be downloa
     install.packages("devtools")
     devtools::install_github("alecri/dosresmeta")
 
+**Edit (2017-08-17)**
+
+The R package `dosresmeta` has been updated on CRAN to verison 2.0.0 and can be installed using the following command line:
+
+	install.packages("dosresmeta")
+
+Furthermore, `dosresmeta` now includes the `gof` function that implements the goodness of fit tools presented in our paper. Type `?gof` in R for more information.
+
+The new function is illustrated in the files `ex_lactose_ovarian-2.R` and `ex_coffee_stroke-2.R`, which reproduce the examples in the paper.
+
+The code in `ex_lactose_ovarian.R`, `ex_coffee_stroke.R` and `functions.R` continues to work but is now obsolete.
+
 Quick description of the files contained in this repository:
 * `data/ovarian.txt`: dataset for Example 1
 * `data/stroke.txt`: dataset for Example 2
 * `ex_lactose_ovarian.R`: R code for Example 1
 * `ex_coffee_stroke.R`: R code for Example 2
+* `ex_lactose_ovarian-2.R`: R code for Example 1 (uses the `gof` function)
+* `ex_coffee_stroke-2.R`: R code for Example 2 (uses the `gof` function)
 * `functions.R`: additional functions used in the examples
 
 ---
