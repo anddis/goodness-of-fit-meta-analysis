@@ -9,6 +9,15 @@ _<sup>1</sup>Unit of Nutritional Epidemiology, Institute of Environmental Medici
 
 Data and R code to reproduce the analyses in the paper "Goodness of fit for dose–response meta-analysis of binary outcomes" are available in this repository.
 
+Quick description of the files contained in this repository:
+* `data/ovarian.txt`: dataset for Example 1
+* `data/stroke.txt`: dataset for Example 2
+* `ex_lactose_ovarian.R`: R code for Example 1
+* `ex_coffee_stroke.R`: R code for Example 2
+* `functions.R`: additional functions used in the examples
+* `ex_lactose_ovarian-2.R`: R code for Example 1, added 2017-08-17 (uses the `gof` function from `dosresmeta`, see below)
+* `ex_coffee_stroke-2.R`: R code for Example 2, added 2017-08-17 (uses the `gof` function from `dosresmeta`, see below)
+
 Note: version 2.0.0 of the R package `dosresmeta` is required. It can be downloaded from http://github.com/alecri/dosresmeta or installed from R using the following command lines:
 
     install.packages("devtools")
@@ -25,15 +34,6 @@ Furthermore, `dosresmeta` now includes the `gof` function that implements the go
 The new function is illustrated in the files `ex_lactose_ovarian-2.R` and `ex_coffee_stroke-2.R`, which reproduce the examples in the paper.
 
 The code in `ex_lactose_ovarian.R`, `ex_coffee_stroke.R` and `functions.R` continues to work but is now obsolete.
-
-Quick description of the files contained in this repository:
-* `data/ovarian.txt`: dataset for Example 1
-* `data/stroke.txt`: dataset for Example 2
-* `ex_lactose_ovarian.R`: R code for Example 1
-* `ex_coffee_stroke.R`: R code for Example 2
-* `ex_lactose_ovarian-2.R`: R code for Example 1 (uses the `gof` function)
-* `ex_coffee_stroke-2.R`: R code for Example 2 (uses the `gof` function)
-* `functions.R`: additional functions used in the examples
 
 ---
 
